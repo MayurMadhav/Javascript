@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h3{
+            text-align: center;
+        }
+    </style>
+     <script defer src="MyJavascript.js"></script>
+</head>
+<body>
+<h3>Rate us here!</h3>
+        <b><i><p>Please provide your valuable feedback</p></i></b><br>
+            
+            <div id="error"></div>
+                <form id="form" >
+                    <div><label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="*Enter valid name"> </div><br>
+                    <div><label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="*Enter valid email"></div><br>
+                    <div><span>Gender:</span>
+                    <input type="radio" name="gender" value="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" name="gender" value="Female">
+                    <label for="Female">Female</label></div>
+                    
+                    <p>Tell us how have you purchased from our shop?</p>
+                    <div><input type="checkbox" id="online" name="online" value="sweets">
+                    <label for="online"> I ordered Sweets Online</label><br>
+                    <input type="checkbox" id="offine" name="offline" value="sweets">
+                    <label for="offine"> I went have been to shop </label></div>
+                        
+                    <p>Tell us more about your visit.</p>
+                    <div><textarea name="message" rows="10" cols="30" placeholder="*Please write something">
+                    </textarea></div><br>
+
+                    <div><label for="birthday">Your Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"></div><br>
+                    <div><label for="favcolor">Select your favorite color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000"></div>
+                    <p><i>PS: Suprise gift for each color on your Birthdate. </i></p>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+        
+        
+    
+    </body>
+</html>
